@@ -1,0 +1,14 @@
+# Dependency directories
+/node_modules
+
+# Data file (since we'll use a real database later, or handle it differently)
+# For now, let's track cars.json to start with an empty array:
+# /cars.json 
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads (the images themselves)
+/public/uploads

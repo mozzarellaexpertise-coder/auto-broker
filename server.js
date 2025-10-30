@@ -5,7 +5,7 @@ const path = require('path');
 const multer = require('multer');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, 'cars.json');
 const UPLOADS_DIR = path.join(__dirname, 'public/uploads');
 
@@ -88,5 +88,5 @@ app.post('/add-car', (req, res) => {
 
 // --- Server Start ---
 app.listen(PORT, () => {
-    console.log(`Node.js API listening at http://localhost:${PORT}`);
+    console.log(`Node.js API listening on port ${PORT}`);
 });
