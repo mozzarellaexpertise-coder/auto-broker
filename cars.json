@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2008,
+        "price": 8000,
+        "imageUrl": "/public/uploads/1761845097031-IMG_20250820_120536.jpg"
+    },
+    {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 1998,
+        "price": 4500,
+        "imageUrl": "/public/uploads/1761845151550-IMG_20250820_120603.jpg"
+    }
+]
